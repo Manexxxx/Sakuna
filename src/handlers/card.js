@@ -7,7 +7,7 @@ module.exports = CardHandler = async (client, m) => {
     let cardgames = await client.DB.get("card-game");
     const cardgame = cardgames || [];
     //  const jid = "120363043742977407@g.us" //send group
-    // const jid = '27787800567-1632642032@g.us'
+    // const jid = '263781512420-1632642032@g.us'
 
     // if (cardgame.length > 0) {
     //   const randomIndex = Math.floor(Math.random() * cardgame.length)
@@ -80,7 +80,7 @@ module.exports = CardHandler = async (client, m) => {
         const cgif = await client.utils.gifToMp4(giif);
         return client.sendMessage(jid, {
           video: cgif,
-          caption: `🧧 *━『 Woah a rare card spawn 』━* 🧧\n\n🎃 Name: ${obj.title}\n\n🌐 Tier: ${obj.tier}\n\n🌀 Price: ${price}\n\n📤 *Info:* collect as much as you can.\n\n🔮 [ Use *${process.env.PREFIX}collect* to claim the card, *${process.env.PREFIX}collection* to see your *Cards* ]`,
+          caption: `❄️ *━『 Woah a rare card spawn 』━* 🧧\n\n🎃 Name: ${obj.title}\n\n🌐 Tier: ${obj.tier}\n\n🌀 Price: ${price}\n\n📤 *Info:* collect as much as you can.\n\n🔮 [ Use *${process.env.PREFIX}collect* to claim the card, *${process.env.PREFIX}collection* to see your *Cards* ]`,
           gifPlayback: true,
         });
       } else {
