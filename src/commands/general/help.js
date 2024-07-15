@@ -4,9 +4,9 @@ let greeting;
 if (hour >= 0 && hour < 12) {
     greeting = "💕 Good Morning"; // Good morning
 } else if (hour >= 12 && hour < 18) {
-    greeting = "💕 Good Afternoon"; // Good afternoon
+    greeting = "💕 Good Afternoon"; // Good afternoon baib🤭
 } else {
-    greeting = "💕 Good Evening"; // Good evening
+    greeting = "💕 Good Evening"; // Good evening hunny🤫❤️
 }
 
 module.exports = {
@@ -33,7 +33,7 @@ module.exports = {
                     return obj;
                 }, {});
 
-                const emojis = ['', '', '', '', '', '', '', '', '', '', '', '', ''];
+                const emojis = ['❤️', '🥂', '🥰', '🤭', '☺️', '😚', '🥰', '😍', '😋', '😜', '🤪', '😉', '😚'];
 
                 const commandList = Object.keys(categories);
 
@@ -48,18 +48,18 @@ module.exports = {
                 }
 
     let message =`╭────────────────
-┣ *Name: Kurumi Tokisaki*
+┣ *Name: Killer Frost❄️*
 ┣ *User: ${pushName}*
 ┣ *Prefix : << ${client.prefix} >>*
-┣ *Owner: Deryl*
+┣ *Owner: Manexx*
 ╰────────────────\n\nThis help menu is designed to help you get started with the bot.\n\n⟾ *📪Command List📪*\n\n${commands}\n📚Notes: *➪Use ${client.prefix}help <command_name> for more info of a specific command.*\n*➪Example: ${client.prefix}help bank.*`;
        
                 const imageUrls = [
-                    'https://telegra.ph/file/08b8f4f754693568ce929.jpg',
-                    'https://telegra.ph/file/11d09e8b609b2c6f221ca.jpg',
-                    'https://telegra.ph/file/d02cea07a66fe5746ecd5.jpg',
-                    'https://telegra.ph/file/ba671375fe7987044b96c.jpg',
-                    'https://telegra.ph/file/1093c5445afbc5047f77b.jpg',
+                    'https://telegra.ph/file/d64030b82e94d9082229d.jpg',
+                    'https://telegra.ph/file/b4208af383e195cccdf15.jpg',
+                    'https://telegra.ph/file/de38fa35fef966ba0edb5.jpg',
+                    'https://telegra.ph/file/4e582dfee9a0822569ed4.jpg',
+                    'https://telegra.ph/file/0c58fa362d3adb78a6b07.jpg',
                 ];
 
                 const getRandomImageUrl = () => {
@@ -93,7 +93,7 @@ module.exports = {
 
             M.reply(message);
         } catch (err) {
-            await client.sendMessage(M.from, { image: { url: `${client.utils.errorChan()}` }, caption: `${greeting} Error Deryl\n\nError:\n${err}` });
+            await client.sendMessage(M.from, { image: { url: `${client.utils.errorChan()}` }, caption: `${greeting} Error frost\n\nError:\n${err}` });
         }
     }
 };
