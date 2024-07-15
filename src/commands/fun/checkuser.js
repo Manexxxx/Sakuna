@@ -24,18 +24,18 @@ module.exports = {
         if (M.quoted?.participant) M.mentions.push(M.quoted.participant)
         if (!M.mentions.length) M.mentions.push(M.sender)
         const types = [
-            'Compassionate',
-            'Generous',
-            'Grumpy',
-            'Forgiving',
-            'Obedient',
-            'Good',
-            'Simp',
-            'Kind-Hearted',
-            'Patient',
-            'UwU',
-            'Top, anyway',
-            'Helpful'
+            'Compassionate🥂',
+            'Generous👋',
+            'Grumpy😠',
+            'Forgiving🙏',
+            'Obedient🙇',
+            'Hot🔥',
+            'Simple🏌️',
+            'Kind-Hearted❤️',
+            'Patient🤫',
+            'sexy🙈',
+            'Top☠️, anyway🤥',
+            'Good kisser🤭'
         ]
         const character = types[Math.floor(Math.random() * types.length)]
         const percentage = Math.floor(Math.random() * 100) + 1
