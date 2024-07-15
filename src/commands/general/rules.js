@@ -6,7 +6,7 @@ module.exports = {
     description: 'Bot rules',
     async execute(client, arg, M) {
 
-        let rules = `*Just dont abuse the bot or you will be banned*`
+        let rules = `*Just dont abuse killer frost❄️😚 the bot or you will be banned*`
         M.reply(rules)
 
         
