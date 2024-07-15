@@ -1,4 +1,4 @@
-<h1 align="center"> Killer frost❄️ a WhatsApp bot 
+<h1 align="center"> Killer frost❄️ WhatsApp bot 
 
 </div>
 <p align="center">
