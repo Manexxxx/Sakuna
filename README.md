@@ -11,7 +11,7 @@ Killer frost❄️
   
 <h3 align="center"> The Future Is Here
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FF0000&lines=ɪ'ᴍ+kiler-frost-Manexx+ᴀ+WhatsApp+ʙᴏᴛ;ᴍᴀᴅᴇ+ʙʏ+Deryl+and+Aku-the-overthinker.)](https://git.io/typing-svg)
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FF0000&lines=ɪ'ᴍ+kiler-frost-Manexx+ᴀ+WhatsApp+ʙᴏᴛ;ᴍᴀᴅᴇ+ʙʏ+Local broxxie+and+Manexx-the-overthinker.)](https://git.io/typing-svg)
 <br>
 
 <h2> 🎐 Deloying Buttons 🎐
