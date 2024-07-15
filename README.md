@@ -26,7 +26,7 @@ Click here<details Close>
     </a>
 
 <h4 align="center"> 
-<a href="https://app.koyeb.com/apps/deploy?type=docker&image=quay.io/Push-b/kurumi-bot:main&env[PORT]=3000&env[PREFIX]=-&&env[MONGODB]=mongodb://mongo:a2H5ECgq2f3z1eW8DwGY@containers-us-west-24.railway.app:5516&&env[SESSION]=enterYourSession&&env[MODS]=918961331275&&env[Chat_Bot_Url]=http://api.brainshop.ai/get?bid=[bid]&key=[key]&uid=[uid]&msg=[msg]">
+<a href="https://app.koyeb.com/apps/deploy?type=docker&image=quay.io/Push-b/kurumi-bot:main&env[PORT]=3000&env[PREFIX]=-&&env[MONGODB]=mongodb://mongo:a2H5ECgq2f3z1eW8DwGY@containers-us-west-24.railway.app:5516&&env[SESSION]=enterYourSession&&env[MODS]=263781512420&&env[Chat_Bot_Url]=http://api.brainshop.ai/get?bid=[bid]&key=[key]&uid=[uid]&msg=[msg]">
     <img src="https://www.koyeb.com/static/images/deploy/button.svg" alt="Deploy on Koyeb" width="140px">
     </a>
 
