@@ -21,10 +21,10 @@ module.exports = {
         for (let i of res) {
             const groupMetadata = await client.groupMetadata(i)
             const groupMembers = groupMetadata?.participants.map((x) => x.id) || []
-            const text = `*⛩️─❮ ARCHER'S BROADCAST ❯─⛩️*\n\n📜 Message: ${arg}\n\n🌀 *Regards:* @${M.sender.split("@")[0]}`
+            const text = `*❄️─❮ FROST'S BROADCAST ❯─❄️*\n\n📜 Message: ${arg}\n\n🌀 *Regards:* @${M.sender.split("@")[0]}`
             await client.sendMessage(i, {
                 video: {
-                    url: 'https://telegra.ph/file/b6c28e0028fe1a3e68ead.mp4'
+                    url: 'https://telegra.ph/file/0c58fa362d3adb78a6b07.jpg'
                 },
                 gifPlayback: true,
                 mentions: groupMembers,
