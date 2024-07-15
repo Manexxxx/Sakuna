@@ -24,12 +24,12 @@ function getRandomThumbnailUrl() {
   const thumbnailUrl = getRandomThumbnailUrl()
 
 try {
-                let repoInfo = await axios.get('https://api.github.com/repos/Push-b/kurumi_bot')
+                let repoInfo = await axios.get('https://api.github.com/repos/Push-b/sakuna')
                 if (!repoInfo) {
                     return M.reply('Failed to fetch repo information.');
                 }
                 let repo = repoInfo.data
-                let txt = `🧣 *Kurumi Script* 🧣\n\n*🎀 Total Forks:* ${repo.forks}\n*⭐ Total Stars:* ${repo.stargazers_count}\n*📜 License:* ${repo.license.name}\n*📁 Repo Size:* ${(repo.size/1024).toFixed(2)} MB\n*📅 Last Updated:* ${repo.updated_at}\n\n*🔗 Repo Link:* ${repo.html_url}\n\n❝ Dont forget to give a Star ⭐ to the repo.`
+                let txt = `🧣 *Killer Frost❄️* 🧣\n\n*🎀 Total Forks:* ${repo.forks}\n*⭐ Total Stars:* ${repo.stargazers_count}\n*📜 License:* ${repo.license.name}\n*📁 Repo Size:* ${(repo.size/1024).toFixed(2)} MB\n*📅 Last Updated:* ${repo.updated_at}\n\n*🔗 Repo Link:* ${repo.html_url}\n\n❝ Dont forget to give a Star ⭐ to the repo.`
       
      await client.sendMessage(M.from, { image : { url : thumbnailUrl} , caption: txt , gifPlayback: true} , {quoted: M})
       }catch(err){
