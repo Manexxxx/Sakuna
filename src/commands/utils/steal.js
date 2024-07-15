@@ -23,7 +23,7 @@ module.exports = {
                 // Create a new sticker instance
                 const sticker = new Sticker(buffer, {
                     pack: packName || '👾 Handcrafted for you by',
-                    author: authorName || 'Deryl 👾',
+                    author: authorName || 'killer frost ☺️',
                     type: StickerTypes.FULL,
                     categories: ['🤩', '🎉'],
                     quality: 70
