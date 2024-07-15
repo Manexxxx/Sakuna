@@ -6,17 +6,17 @@ module.exports = EventsHandler = async (event, client) => {
     const getRandomMessage = (action, participants) => {
         const randomMessages = {
             add: [
-                '{user} here is a warm welcome to our support group glad you decided to join us!',
+                '{user} here is a warm welcome to our support group glad you decided to join us im killer frost❄️ a whatsapp bot created by my crush Manexx☺️👌!',
                 '{user} welcome to our group designed to share helpful stuff!',
                 '{user} hey there !',
                 '{user} has arrived!',
-                'Welcome to the group, {user}. Hope you follow the description rules.',
-                "{user} has arrived. we are proud to have you in our group!",
-                '{user} we are pleased that you considered our group link!',
-                "Well, {user}, it's about time you arrived!",
-                'Um, {user} has arrived. and we expect unconditional love from you!?',
-                'Very funny {user}, I expected you to be here a while what took you so long?',
-                'Good to see you, {user}. just know you are welcome ',
+                'Welcome to the group, {user}. Hope you follow the description rules im killer frost❄️ a bot created by my crush manexx🤭🥂.',
+                "{user} has arrived. we are proud to have you in our group👌!",
+                '{user} we are pleased that you considered our group link🥂!',
+                "Well, {user}, it's about time you arrived hope you like a toast🥂!",
+                'Um, {user} has arrived. and we expect unconditional love from you❤️!?',
+                'Very funny {user}, I expected you to be here a while what took you so long😔?',
+                'Good to see you, {user}. just know you are welcome😜 ',
                 "It's a pleasure to see you {user}.",
             ],
             remove: [
