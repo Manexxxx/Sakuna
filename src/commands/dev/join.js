@@ -4,11 +4,11 @@ module.exports = {
     category: 'dev',
     cool: 20,
     react: "✅",
-    description: 'Bot joins the group using the link',
+    description: 'killer frost❄️ joins the group using the link',
     async execute(client, arg, M) {
        try{
 
-        if (!arg) return M.reply('🟥 *Sorry you did not provide any group link!*')
+        if (!arg) return M.reply('🟥 *Sorry human you did not provide any group link!*')
         if (!arg.includes('whatsapp.com')) return M.reply('🟥 *Sorry you did not give any valid group link*!')
         const JoinCode = arg.split('https://chat.whatsapp.com/')[1]
         client
