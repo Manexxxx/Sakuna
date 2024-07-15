@@ -51,22 +51,22 @@ module.exports = MessageHandler = async (messages, client) => {
                 if (groupCode !== groupNow) {
                     await client.sendMessage(from, { delete: M.key });
                     await client.groupParticipantsUpdate(from, [sender], 'remove');
-                    return M.reply("🐦‍⬛ *Don't send a group link or you will be removed*");
+                    return M.reply("☺️ *Don't send a group link or you will be removed ASAP*");
                 }
             }
         }
       
         // Banned system
-        if (isCmd && banned.includes(sender)) return M.reply('🔴 *You are banned from using bot commands*')
+        if (isCmd && banned.includes(sender)) return M.reply('❄️ *I'm sorry but You are banned from using bot commands😔*')
 
         // Group responses
-        if (body === 'test' || body === 'Test') return M.reply(`🐦‍⬛ everything is working just fine ${M.pushName}`)
-        if (body === 'kurumi' || body === 'Kurumi') return M.reply('Kurumi is a bot created for entertainment purposes')
+        if (body === 'frost' || body === 'Test') return M.reply(`❤️ everything is working just fine Manexx☺️👌 my love ${M.pushName}`)
+        if (body === 'purpose' || body === 'frost') return M.reply('Killer frost❄️ is a bot created bt Manexx for entertainment purposes only')
 
         if (M.quoted?.participant) M.mentions.push(M.quoted.participant)
         if (M.mentions.includes(client.user.id.split(':')[0] + '@s.whatsapp.net') && !isCmd && isGroup && ActivateChatBot.includes(from)) {
             const text = await axios.get(`https://api.simsimi.net/v2/?text=${emojiStrip(body)}&lc=en&cf=true`)
-            M.reply(body == 'hi' ? `Hey ${M.pushName}, what's up?` : text.data.messages[0].text)
+            M.reply(body == 'hi' ? `Hey ${M.pushName}, what's up how are you doing human frend?` : text.data.messages[0].text)
         }
 
         // Logging Message
@@ -82,7 +82,7 @@ module.exports = MessageHandler = async (messages, client) => {
         if (!isCmd) return
         const command = client.cmd.get(cmdName) || client.cmd.find((cmd) => cmd.aliases && cmd.aliases.includes(cmdName))
 
-        if (!command) return M.reply('🔴 *No such command found!*');
+        if (!command) return M.reply('❄️ *No such command found sorry!*');
 
         if (command.react) {
             const reactionMessage = {
@@ -95,14 +95,14 @@ module.exports = MessageHandler = async (messages, client) => {
         }
         
         if (!groupAdmins.includes(sender) && command.category == 'group')
-            return M.reply('🔴 *This command can only be used by group admins*');
+            return M.reply('❄️ *This command can only be used by group admins*');
         if (!groupAdmins.includes(client.user.id.split(':')[0] + '@s.whatsapp.net') && command.category == 'moderation')
-            return M.reply('🔴 *This command can only be used when the bot is admin*');
-        if (!isGroup && command.category == 'moderation') return M.reply('🔴 *This command is meant to be used in groups only*');
-        if (!isGroup && !client.mods.includes(sender.split('@')[0])) return M.reply("🔴 *Bot can only be accessed in groups*");
+            return M.reply('❄️ *This command can only be used when killer frost❄️ bot is admin*');
+        if (!isGroup && command.category == 'moderation') return M.reply('❄️ *This command is meant to be used in groups only*');
+        if (!isGroup && !client.mods.includes(sender.split('@')[0])) return M.reply("❄️ *killer frost❄️ can only be accessed in groups*");
         if (!isMod(sender) && command.category == 'dev')
-            return M.reply('🔴 *This command can only be accessed by my owner*');
-        if (!isGroup && command.category == 'card-extend') return M.reply('🔴 *This command can be used in card game group*')
+            return M.reply('❄️ *This command can only be accessed by my owner*');
+        if (!isGroup && command.category == 'card-extend') return M.reply('❄️ *This command can be used in card game group*')
         
         command.execute(client, arg, M)
     } catch (err) {
