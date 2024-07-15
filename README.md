@@ -1,4 +1,4 @@
-<h1 align="center"> Killer frost❄️ a WhatsApp bot created by Manexx
+<h1 align="center"> Killer frost❄️ a WhatsApp bot 
 
 </div>
 <p align="center">
