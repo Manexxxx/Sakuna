@@ -71,4 +71,4 @@ SESSION_URL | Your Mongo URL will be used here ()
 |--- | --- |
 | [Deryl](https://github.com/Push-b) Owner, developer, monthly maintainer,  function developer |  [Aku](https://github.com/Eximinati) co-Owner, developer, baileys and dependencies maintainer,  function developer |
 |--- | --- | 
-| [![Deryl](https://github.com/JFLEX019.png)](https://github.com/JFLEX019) JFLEX the coder aassist|
+| [![Deryl](https://github.com/sakuna)](https://github.com/Gojo-satoru) Manexx the coder aassist|
