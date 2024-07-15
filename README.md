@@ -1,17 +1,17 @@
-<h1 align="center"> Kurumi Tokisaki Bot
+<h1 align="center"> Killer frost❄️ a WhatsApp bot created by Manexx
 
 </div>
 <p align="center">
   
-  <img src="https://telegra.ph/file/08b8f4f754693568ce929.jpg" width="360" border="0" alt="PFP">
+  <img src="https://telegra.ph/file/933f930c9b19cb44ec256.jpg" width="360" border="0" alt="PFP">
 </h3>
 
 <p align="center">
-Kurumi Tokisaki
+Killer frost❄️
   
 <h3 align="center"> The Future Is Here
 
-## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FF0000&lines=ɪ'ᴍ+kurumi-Tokisaki+ᴀ+WhatsApp+ʙᴏᴛ;ᴍᴀᴅᴇ+ʙʏ+Deryl+and+Aku-the-overthinker.)](https://git.io/typing-svg)
+## [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Rockstar-ExtraBold&color=FF0000&lines=ɪ'ᴍ+kurumi-Manexx+ᴀ+WhatsApp+ʙᴏᴛ;ᴍᴀᴅᴇ+ʙʏ+Deryl+and+Aku-the-overthinker.)](https://git.io/typing-svg)
 <br>
 
 <h2> 🎐 Deloying Buttons 🎐
@@ -52,9 +52,9 @@ Click here<details Close>
       
 ENV | VALUES
 -- | --
-NAME | The name of your bot (Kurumi Tokisaki) 
-PREFIX | The prefix of your bot can be a symbol (/)
-MODS | Phone numbers in this format (`263788671***`) without `+` or `SPACE` and for more numbers put a "," between them.
+NAME | The name of your bot (Killer frost❄️) 
+PREFIX | The prefix of your bot can be a symbol (*)
+MODS | Phone numbers in this format (`263781512420`) without `+` or `SPACE` and for more numbers put a "," between them.
 PORT | The port on which your bot will run (3000)
 MONGODB | Your MongoDB URL ()
 SESSION | Any random value and try to keep it copied
@@ -64,10 +64,10 @@ SESSION_URL | Your Mongo URL will be used here ()
 
 ---
 
-<h2 align="center">🔰 Meet Kurumi Devs 🔰
+<h2 align="center">🔰 Meet killer frost❄️ Devs 🔰
 </h2>
 
-| [![Deryl](https://github.com/Push-b.png)](https://github.com/Push-b) Stress_Giver | [![Aku the ovethinker](https://github.com/Eximinati.png)](https://github.com/Eximinati) Aku the thinker |
+| [![Deryl](https://github.com/Sakuna)](https://github.com/sakuna) Stress_Giver | [![manexx the ovethinker](https://github.com/Eximinati.png)](https://github.com/Eximinati) Aku the thinker |
 |--- | --- |
 | [Deryl](https://github.com/Push-b) Owner, developer, monthly maintainer,  function developer |  [Aku](https://github.com/Eximinati) co-Owner, developer, baileys and dependencies maintainer,  function developer |
 |--- | --- | 
