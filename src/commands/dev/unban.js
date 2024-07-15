@@ -3,10 +3,10 @@ module.exports = {
     aliases: ['unb'],
     react: "✅",
     category: 'dev',
-    description: 'unans the taged user',
+    description: 'unbans the taged user',
     async execute(client, arg, M) {
         if (M.quoted?.participant) M.mentions.push(M.quoted.participant)
-        if (!M.mentions.length) return M.reply('🟥 *Sir tag a user you want to ban*!')
+        if (!M.mentions.length) return M.reply('🟥 *Hey boyfriend🥰 please tag a user you want to ban*!')
         const banned = (await client.DB.get('banned')) || []
         M.mentions.filter(async (user) =>
             banned.includes(user)
