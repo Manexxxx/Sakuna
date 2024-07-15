@@ -6,9 +6,9 @@ module.exports = {
     description: 'Reports user issues',
     async execute(client, arg, M) {
          let videos = [
-            'https://telegra.ph/file/f0c24da2961de0bede5e1.mp4',
-            'https://telegra.ph/file/f7d87038dc8c486c1a094.mp4',
-            'https://telegra.ph/file/672375c8205e1f126f200.mp4'
+            'https://telegra.ph/file/4e582dfee9a0822569ed4.jpg',
+            'https://telegra.ph/file/d64030b82e94d9082229d.jpg',
+            'https://telegra.ph/file/b4208af383e195cccdf15.jpg'
         ]
   
 const ariLogo = "https://i.ibb.co/kcz5R14/Whats-App-Image-2023-02-27-at-12-32-54-AM.jpg"
