@@ -10,11 +10,11 @@ module.exports = {
     async execute(client, arg, M) {
 
          const thumbnailUrls = [
-   'https://telegra.ph/file/2c6987dc8fe7294d67b9c.jpg',
-    'https://telegra.ph/file/d32c66fe476f7acf3370a.jpg',
-    'https://telegra.ph/file/77fe6725241b79e73c3ea.jpg',
-    'https://telegra.ph/file/7a71e4adb3de99ac6d2a2.jpg',
-    'https://telegra.ph/file/f2ae666c7a3f408e76f66.jpg',
+    'https://telegra.ph/file/0c58fa362d3adb78a6b07.jpg',
+    'https://telegra.ph/file/4e582dfee9a0822569ed4.jpg',
+    'https://telegra.ph/file/de38fa35fef966ba0edb5.jpg',
+    'https://telegra.ph/file/b4208af383e195cccdf15.jpg',
+    'https://telegra.ph/file/d64030b82e94d9082229d.jpg',
 ];
 
 function getRandomThumbnailUrl() {
