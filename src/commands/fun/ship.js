@@ -34,14 +34,14 @@ module.exports = {
         if (percentage >= 0 && percentage < 10) text = 'Awful'
         else if (percentage >= 10 && percentage < 25) text = 'Very Bad'
         else if (percentage >= 25 && percentage < 40) text = 'Poor'
-        else if (percentage >= 40 && percentage < 55) text = 'Average'
+        else if (percentage >= 40 && percentage < 55) text = 'better'
         else if (percentage >= 55 && percentage < 75) text = 'Good'
-        else if (percentage >= 75 && percentage < 90) text = 'Great'
+        else if (percentage >= 75 && percentage < 90) text = 'amazing'
         else if (percentage >= 90) text = 'Amazing'
 
         let sentence = ''
         if (percentage < 40) sentence = `There's still time to reconsider your choices`
-        else if (percentage < 60) sentence = `Good enough, I guess! 💫`
+        else if (percentage < 60) sentence = `no way you two, shud not date! 😄🤭`
         else if (percentage < 75) sentence = `Stay together and you'll find a way ⭐️`
         else if (percentage < 90) sentence = `Amazing! You two will be a good couple 💖 `
         else sentence = `You two are fated to be together 💙`
