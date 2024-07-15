@@ -6,14 +6,14 @@ module.exports = {
     description: 'Bot faq',
     async execute(client, arg, M) {
          let videos = [
-            'https://telegra.ph/file/f0c24da2961de0bede5e1.mp4',
-            'https://telegra.ph/file/f7d87038dc8c486c1a094.mp4',
-            'https://telegra.ph/file/672375c8205e1f126f200.mp4'
+            'https://telegra.ph/file/4e582dfee9a0822569ed4.jpg',
+            'https://telegra.ph/file/de38fa35fef966ba0edb5.jpg',
+            'https://telegra.ph/file/0c58fa362d3adb78a6b07.jpg'
         ]
         let randomRes = videos[Math.floor(Math.random() * videos.length)]
 
   
-const ariLogo = "https://telegra.ph/file/eedb459ccf531467b5b9a.jpg"
+const ariLogo = "https://telegra.ph/file/0c58fa362d3adb78a6b07.jpg"
         
         let supportG = `*━━━『 Support_Group 』━━━*\n: https://chat.whatsapp.com/CUs2uABsCWrINrmln0UfjQ\n\n`
         let text = [
