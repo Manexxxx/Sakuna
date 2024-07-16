@@ -37,7 +37,7 @@ const EconomyDb = require('./handlers/economy.js')
 const start = async () => {
     // if (process.env.SESSION) {
     //     const { data } = await axios.get(process.env.SESSION)
-    //     writeFileSync('./session', JSON.stringify(data))
+    //     writeFileSync('./session', JSON.stringify(data)
     // }
     // const { state, saveCreds } = await useMultiFileAuthState('./session')
     
