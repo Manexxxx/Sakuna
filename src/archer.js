@@ -55,7 +55,7 @@ const start = async () => {
     client.prefix = process.env.PREFIX || '#'
     client.proUser = (process.env.proUser  || '263781512420').split(',')
     client.writesonicAPI = process.env.WRITE_SONIC || null
-    client.bgAPI = process.env.BG_API_KEY || 'QCSFph4LUNDuaPhN7CDL1PDS'
+    client.bgAPI = process.env.BG_API_KEY || null
     client.mods = (process.env.MODS || '263781512420').split(',')
 
 
