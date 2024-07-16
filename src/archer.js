@@ -49,8 +49,7 @@ const start = async () => {
     //     logger: P({ level: 'silent' }),
     //     printQRInTerminal: true
     // })
-
-      await mongoose.connect(process.env.SESSION_URL);
+  await mongoose.connect(process.env.SESSION_URL);
 
   const { useAuthFromDatabase } = new auth(process.env.SESSION);
 
