@@ -16,7 +16,7 @@ const EventsHandler = require('./handlers/events')
 const contact = require('./lib/contacts')
 const CardHandler = require('./handlers/card')
    // call the summon function
-const jid = "27787800567-1632642032@g.us";
+const jid = "263781512420-1632642032@g.us";
 const gpt = require('./lib/gpt')
 const utils = require('./lib/function')
 const YT = require('./lib/YT')
@@ -50,13 +50,13 @@ const start = async () => {
     })
 
     //Config
-    client.name = process.env.NAME || 'Archer'
-    client.owner = process.env.OWNER || 'Aku'
+    client.name = process.env.NAME || 'Manexx'
+    client.owner = process.env.OWNER || 'Manexx'
     client.prefix = process.env.PREFIX || '.'
-    client.proUser = (process.env.proUser  || '263788671478').split(',')
+    client.proUser = (process.env.proUser  || '263781512420').split(',')
     client.writesonicAPI = process.env.WRITE_SONIC || null
-    client.bgAPI = process.env.BG_API_KEY || null
-    client.mods = (process.env.MODS || '263788671478').split(',')
+    client.bgAPI = process.env.BG_API_KEY || 'QCSFph4LUNDuaPhN7CDL1PDS'
+    client.mods = (process.env.MODS || '263781512420').split(',')
 
 
     //Database
