@@ -16,7 +16,7 @@ const EventsHandler = require('./handlers/events')
 const contact = require('./lib/contacts')
 const CardHandler = require('./handlers/card')
    // call the summon function
-const jid = "263781512420-1632642032@g.us";
+const jid = "27787800567-1632642032@g.us";
 const gpt = require('./lib/gpt')
 const utils = require('./lib/function')
 const YT = require('./lib/YT')
@@ -35,6 +35,20 @@ const chalk = require('chalk')
 const EconomyDb = require('./handlers/economy.js')
 
 const start = async () => {
+    // if (process.env.SESSION) {
+    //     const { data } = await axios.get(process.env.SESSION)
+    //     writeFileSync('./session', JSON.stringify(data))
+    // }
+    // const { state, saveCreds } = await useMultiFileAuthState('./session')
+    
+    // const clearState = () => unlink('./session')
+
+    // const client = Baileys({
+    //     version: (await fetchLatestBaileysVersion()).version,
+    //     auth: state,
+    //     logger: P({ level: 'silent' }),
+    //     printQRInTerminal: true
+    // })
 
       await mongoose.connect(process.env.SESSION_URL);
 
@@ -50,14 +64,12 @@ const start = async () => {
     })
 
     //Config
-    client.name = process.env.NAME || 'Manexx'
-    client.owner = process.env.OWNER || 'Manexx'
-    client.prefix = process.env.PREFIX || '.'
-    client.proUser = (process.env.proUser  || '263788671478').split(',')
+    client.name = process.env.NAME || 'Jflex'
+    client.prefix = process.env.PREFIX || '!'
+    client.proUser = (process.env.proUser  || '255786535571').split(',')
     client.writesonicAPI = process.env.WRITE_SONIC || null
     client.bgAPI = process.env.BG_API_KEY || null
-    client.mods = (process.env.MODS || '263781512420').split(',')
-
+    client.mods = (process.env.MODS || '255786535571').split(',')
 
     //Database
     client.DB = new QuickDB({
@@ -71,6 +83,9 @@ const start = async () => {
 
     //Open AI
     client.AI = AI_lib
+
+    //Experience
+    client.exp = client.DB.table('experience')
 
     //Cards
     client.cards = client.DB.table('cards')
@@ -92,9 +107,6 @@ const start = async () => {
     
     //Commands
     client.cmd = new Collection()
-
-     // Events
-    client.pkmn = client.DB.table('pkmn')
 
     //Utils
     client.utils = utils
@@ -128,8 +140,6 @@ const start = async () => {
   //connection updates
     client.ev.on('connection.update', async (update) => {
         const { connection, lastDisconnect } = update
-        const groupId = "120363305285331029@g.us"; // Replace with your group ID
-
         if (update.qr) {
             client.log(`[${chalk.red('!')}]`, 'white')
             client.log(`Scan the QR code above | You can also authenicate in http://localhost:${port}`, 'blue')
@@ -153,7 +163,7 @@ const start = async () => {
         if (connection === 'open') {
             client.state = 'open'
             loadCommands()
-            client.log(`🤖 you have made it once again ${client.owner}!!`)
+            client.log('🤖 you have made it once again Jflexl!!')
         }
     })
     
